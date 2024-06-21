@@ -1,0 +1,152 @@
+img{
+  width: 25px;
+}
+.menu{
+  margin:0 275px;
+}
+.logo{
+  margin:0 10px;
+}
+.navbar{
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.p{
+  padding: 50px 0;
+}
+/* zoom under fram */
+.con{
+  display: flex;
+}
+.i1{
+  overflow: hidden;
+  width: 48%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 5px;
+}
+.i1 img{
+  display: block;
+  transition: transform 2s;
+  width: 100%;
+}
+.i1:hover img{
+  transform: scale(1.2);
+}
+/* End */
+.card-body{
+  margin: 20px 0 0 8px;
+}
+del{
+  color:grey;
+}
+span #p{
+  font-size :25px;
+}
+.card-body img{
+  width:8%; 
+  border: 1px solid black;
+  border-radius:50%;
+  margin: 10px 10px 0 0;
+}
+.card-body img:hover{
+  width:8%; 
+  border:solid 3px black; 
+  border-radius:50%;
+  margin: 10px 10px 0 0;
+}
+.bt button{
+  width: 350px;
+  margin:10px 40px 0 0;
+  padding: 10px;
+  border-radius: 10px;
+}
+h6 a{
+  text-decoration : none;
+  color: black;
+}
+.line{
+  border: 1.5px double rgb(69, 67, 67);
+  width: 1250px;
+  margin: auto;
+}
+.sc{
+  width: 90%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.size button{
+  width: 40px;
+  background-color: white;
+  border: 1px solid rgba(143, 141, 141,0);
+}
+
+
+
+
+
+.counter {
+  width: 120px;
+  margin: -10px 0 15px 0;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  border: 0.5px solid black;
+  border-radius : 5px;
+}
+.counter input {
+  width: 50px;
+  border: 0;
+  line-height: 30px;
+  font-size: 20px;
+  text-align: center;
+  appearance: none;
+  outline: 0;
+}
+.counter span {
+  font-size: 25px;
+  padding: 0 10px;
+  cursor: pointer;
+  user-select: none;
+}
+.up{
+  border-left: 0.5px solid black;
+}
+.down{
+  border-right: 0.5px solid black;
+}
+
+
+
+
+
+.review-form{
+  text-align: center;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  width:70%;
+  margin: 0 25px 0 13px;
+}
+.review-form h3{
+  margin-top: 10px;
+} 
+
+.review-form .r{
+  margin: 5px 2px 8px 5px;
+}
+
+.review-form .form-control{
+  width: 57%;
+  margin-top: 20px;
+  margin-left: 175px;
+}
+.rt{
+  width: 57%;
+  padding: 5px 0 5px 10px;
+}
+.sizechart{
+  width:35%;
+  margin-right: -20px;
+  margin-top: 50px;
+}

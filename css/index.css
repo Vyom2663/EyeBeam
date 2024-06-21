@@ -1,0 +1,261 @@
+
+img{
+  width: 25px;
+}
+.menu{
+  margin:0 275px;
+}
+.logo{
+  margin:0 15px;
+}
+
+
+.sub-menu-wrap{
+  position: absolute;
+  top: 100%;
+  right: 1%;
+  width: 320px;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+.sub-menu-wrap.open-menu{
+  min-height: 400px;
+}
+.sub-menu{
+  background: #fff;
+  padding: 20px;
+  margin: 10px;
+}
+.user-info{
+  display: flex;
+  align-items: center;
+}
+.user-info h3{
+  font-weight: 500;
+}
+.user-info img{
+  width : 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.sub-menu hr{
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background: #ccc;
+  margin: 15px 0 10px;
+}
+.sub-menu-link{
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  color: #525252;
+  margin: 12px 0;
+}
+.sub-menu-link i{
+  width : 45px;
+  background : #e5e5e5;
+  border-radius: 50%;
+  margin-right: 15px;
+  padding: 15px;
+}
+.sub-menu-link p{
+  padding-top: 5px;
+}
+
+
+
+.bgi{
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.3) 100%),url("../img/bg1.png");
+  background-size:cover;
+  background-position: center;
+  height: 500px; 
+}
+.bgi h1{
+  color:aliceblue;
+  margin:150px 0;
+  text-align: center;
+  opacity: 0.9;
+}
+.h{
+  background-color: darkcyan;
+  border-radius: 25px;
+  color: white;
+  margin: 15px 90px;
+  padding: 1px;
+}
+.line{
+  border: 1.5px double rgb(69, 67, 67);
+  width: 1150px;
+  margin: auto;
+}
+.line2{
+  border: 0.5px solid rgb(18, 17, 17);
+  width: 500px;
+  margin: auto;
+}
+.line3{
+  border: 0.5px solid rgb(18, 17, 17);
+  width: 530px;
+  margin: auto;
+}
+.navbar{
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h6 a{
+  text-decoration : none;
+  color: black;
+}
+
+
+
+.contain{
+  display: flex;
+}
+.category{
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  border-radius: 2px;
+}
+.category img{
+  width: 110%;
+  display: block;
+  transition: transform 5s;    
+}
+.category:hover img{
+  transform: scale(1.2);
+}
+.caption h3{
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+}
+
+.caption P{
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.caption .butt{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 170%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; 
+  
+}
+.contact{
+  display: flex;
+  margin: 20px auto;
+}
+
+.contact img{
+  width: 300px;
+}
+.contact-f{
+  margin: 0 50px;
+}
+.form-control {
+margin: 8px 0;
+padding: 5px 280px;
+}
+.ta{
+padding: 12px 280px;
+}
+.contact-a{
+background-color: rgba(227, 231, 235, 0.789);
+margin: 20px 70px;
+border-radius: 5px;
+}
+.contact-b{
+padding: 20px;
+}
+.line-b{
+border: 1.5px double rgb(69, 67, 67);
+width: 1100px;
+margin: auto;
+}
+.map{
+margin:15px 72px 10px 72px;
+}
+.article{
+  background-color: rgba(242, 242, 242, 0.898);
+}
+.hot-sell img{
+  margin: 40px 50px 0 50px;
+  border-radius: 5px;
+}
+.hot-sell{
+  margin: 0 -75px 50px 0;
+}
+.hot-sell2{
+  margin: -10px 0 50px 0;
+  padding: 0 0 0 50px;
+}
+.hot-sell2 .hs1 i{
+  color:rgb(255, 215, 82);
+  margin: 0 3px;
+}
+.hot-sell2 .hs2 i{
+  color:rgba(111, 111, 111, 0.676);
+  margin: 0 5px;
+}
+.hot-sell2 .hs3{
+  display :flex; 
+  border :1px solid black;
+  display :flex;
+  padding: 10px 0 0 125px;
+  margin: 10px 250px 0 0;
+  border-radius: 5px;
+}
+
+.hot-sell2 h6{
+  margin: 0 5px;
+}
+.bt button{
+  width: 356px;
+  margin:10px 40px 0 0;
+  padding: 10px;
+}
+.review{
+  display: flex;
+}
+.dis{
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px 0 0 20px;
+  width: 100%;
+}
+.dis i{
+  color:rgb(255, 215, 82);
+  margin: 10px 3px;
+}
+.review img{
+  width:15%;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+
+
+.cart{
+  display: flex;
+}

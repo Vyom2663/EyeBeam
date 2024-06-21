@@ -1,0 +1,97 @@
+img{
+  width: 25px;
+}
+*{
+  box-sizing: border-box;
+}
+.menu{
+  margin:0 275px;
+}
+.logo{
+  margin:0 10px;
+}
+.bg{
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 100%),url("../img/bg1.png");
+  background-size:cover;
+  background-position: center;
+  height: 500px;
+}
+.navbar{
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container{
+ display: flex;
+}
+del{
+  color:grey;
+}
+.p{
+  font-size :25px;
+}
+.card a{
+  text-decoration : none;
+  color: black;
+}
+.card{
+  margin:0 25px;
+  border: 1px solid lightgray;
+}
+.card:hover{
+  margin:0 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+footer{
+  background-color: rgb(36, 35, 35);
+  height: 200px;
+  color: aliceblue;
+}
+.outer{
+  position: relative;
+}
+.inner{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.outer:hover .inner{
+  display: block;
+  transition: position 2s;
+}
+.container input{
+  margin-left: 10px;
+}
+
+
+.a input{
+  margin-left :20px;
+}
+.a{
+  margin :5px 0;
+}
+.filter{
+  height : 50px;
+  margin : 10px 80px;
+  display : flex;
+  align-items :center;
+}
+.dd{
+  border : 1px solid lightgrey;
+  margin :0 10px;
+  padding :10px 141px 10px 10px;
+  border-radius:5px;
+  background: #fff;
+}
+.dd1{
+  border : 1px solid lightgrey;
+  margin :0 10px;
+  padding :10px 175px 10px 125px;
+  border-radius:5px;
+  /* background: #fff; */
+}
+
+.dd option{
+  cursor: pointer;
+}

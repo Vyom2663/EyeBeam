@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+/* 
+.image{
+    height: auto;
+    width: 100%;
+} */
+.contener{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 30px;
+
+}
+
+
+
+.contener img{
+    display: block;
+    width: 100%;
+    transition: transform 4s;
+}
+
+.contener:hover img {
+    transform:scale(1.4);
+}
+.hero{
+    width: 100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));     
+    /* background-image: linear-gradient(rgb(11 41 159 / 30%),rgb(131 45 32)); */
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+body{
+    background-image: url("image/logo2.jpg");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    background-image: linear-gradient(45deg, #fdb80c, #ff3e3efa);
+    color: white;
+    width: 100%;
+    position: absolute;
+    top : 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav{
+    color: white;
+    width: 100%;
+    position: absolute;
+    top : 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav .logo{
+    width: 100px;
+    color: white;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+nav h3 {
+    padding-left: -50px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 80px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 17px;
+
+}
+
+a.nav-link{
+    color: white;
+}
+
+.content
+{
+    text-align: left;
+    background-image: linear-gradient(rgba(3, 1, 13, 0.3),rgba(2, 0, 8, 0.3));
+    /* background-color: rgba(0,0,0,0.2); */
+    color:white;
+    padding: 40px 20px;
+    border : 0.5px solid black;
+    border-radius: 20px;
+}
+
+.content .btn{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    margin: 0 0 10px 30px;
+    padding : 7px 165px; 
+    border: white;
+    border-radius: 10px;
+}
+
+.bg-video{
+ position: absolute;
+ right: 0;
+ bottom: 0;
+ z-index: -1;
+}
+
+@media (max-aspect-ratio:16/9){
+.bg-video   {
+        width: auto;
+        height: 100%;
+}
+}
+
+.container{
+    margin-top: 25px;
+    
+}
+
+
+.h{
+    background-color: darkcyan;
+    border-radius: 25px;
+    color: white;
+    margin-bottom: 25px;
+}
+.caption h3{
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.caption P{
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.caption .butt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 170%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; 
+    
+}
+
+.carousel-item{
+    height: 25rem;
+}
+
+
+.form-control{
+    margin: 25px;
+}
+.form-group .form-control{
+    margin: -10px 0;
+}
+
+.P_collection{
+    height: 40px;
+    width: 40px;
+}
+
+.card{
+    margin: 15px;
+}
+
+.btnup{
+    border: solid red 2px;
+    padding: 5px;
+    margin: 5px;
+}
+.btndel{
+    border: solid rgb(228, 255, 76) 2px;
+    padding: 6px;
+    margin: 5px;
+}
+
+.buttons{
+    padding: 3px;
+    margin: 5px;
+    align-items: center;
+}
